@@ -62,6 +62,11 @@ export const info = {
       icon: "	fa fa-file-pdf-o",
       label: "resume",
     },
+    {
+     link:"https://www.codechef.com/users/hemant2742" ,
+     icon: "fa fa-code",
+     label: "codechef",
+    },
   ],
   bio: "Hello! I'm Hemant Kr Singh. I'm a Pre-final Year student at UIET,Kanpur University. I have good knowlege I have worked as a Frotend devloper Intern at Unicompiler,!",
   skills: {
