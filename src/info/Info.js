@@ -1,36 +1,25 @@
 import self from "../img/self.png";
 import mock1 from "../img/mock1.png";
+import mock2 from "../img/mock2.png";
 
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
 
 export let colors = ["rgb(230,10,10)", "rgb(51,46,46)"];
 
 export let colors1 = ["rgb(0,240,84)", "rgb(24,38,220)"];
-/*
-I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
-These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
-the site.
- */
 
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
- */
 
 export const info = {
   firstName: "Hemant",
   lastName: "Kr Singh",
   initials: "hemant2742", 
-  position: "a Frontend  Developer,Competetive Programmer",
+  position: "a Full-stack Developer,Competetive Programmer",
   selfPortrait: self, 
   gradient: `-webkit-linear-gradient(135deg, ${colors})`,
   baseColor: colors[0],
   miniBio: [
     {
       emoji: "🧑‍💻",
-      text: " Pre-final Year CSE Undergrad",
+      text: " SDE Intern @ Clearout.io",
     },
     {
       emoji: "🏫",
@@ -75,6 +64,9 @@ export const info = {
       "C++",
       "Data Structure and Algorithms",
       "React.js",
+      "AWS",
+      "MongoDB",
+      "Redux",
       "Git",
       "Github",
       "Bootstrap",
@@ -82,10 +74,14 @@ export const info = {
       "CSS3",
       "Figma",
     ],
-    exposedTo: ["nodejs", "adobe illustrator"],
+    exposedTo: ["adobe illustrator"],
   },
 
   WorkingExperience: [
+    {
+      Organisation: "SDE Intern @ Clearout.io",
+      Period: " July 2023-Present",
+    },
     {
       Organisation: "Frontend Developer Intern @ Unicompiler",
       Period: " May 2022-Aug 2022",
@@ -116,9 +112,15 @@ export const info = {
   portfolio: [
     {
       title: "UIET DOCS",
-      live: "https://uietdocs.com", 
+      live: "https://uietdocs.me", 
       source: "https://github.com/hemant2742/UIETDocs",
       image: mock1,
+    },
+    {
+      title: "RANDOM QUOTE GENERATOR",
+      live: "https://uietdocs.com", 
+      source: "https://github.com/hemant2742/UIETDocs",
+      image: mock2 ,
     },
   ],
 };
