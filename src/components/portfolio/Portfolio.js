@@ -1,22 +1,21 @@
 import React from 'react';
 import PortfolioBlock from "./PortfolioBlock";
-import {Box, Grid} from "@mui/material";
 import {info} from "../../info/Info";
 
 export default function Portfolio() {
   
     return (
       
-        <Box>
+        <div className='pt=1'>
            
-            <Grid container display={'flex'} justifyContent={'center' }>
+            <div container display={'flex:auto'} justifyContent={'center' }>
                 
                 {info.portfolio.map((project, index) => (
-                   <Grid item xs={2} md={6} key={index}>
+                   <div item xs={2} md={4} key={index}>
                        <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title} />
-                   </Grid>
+                   </div>
                 ))}
-            </Grid>
-        </Box>
+            </div>
+        </div>
     );
 };
