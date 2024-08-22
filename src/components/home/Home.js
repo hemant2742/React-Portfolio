@@ -18,7 +18,7 @@ export default function Home() {
          <Box>
             <h1>Hi, I'm <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName}</span><span className={Style.hand}>🤚</span>
             </h1>
-            <h2><a href="https://www.linkedin.com/in/clearout-io" target="_blank">I'm {info.position}</a></h2>
+            <h2><a href="https://www.linkedin.com/in/clearout-io" target="_blank" rel="noreferrer">I'm {info.position}</a></h2>
             <Box component={'ul'} p={'0.8rem'}>
                {info.miniBio.map((bio, index) => ( 
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
